@@ -144,4 +144,5 @@ import ModeButton from "./ModeButton.vue";
       </div>
     </div>
   </nav>
+  <div pb-16></div>
 </template>

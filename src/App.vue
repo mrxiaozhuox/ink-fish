@@ -8,10 +8,11 @@ provide("isDarkTheme", darkTheme);
 
 if (darkTheme.value) {
   document.documentElement.classList.add("dark");
+  document.documentElement.classList.add("bg-gray-800");
 } else {
   document.documentElement.classList.remove("dark");
+  document.documentElement.classList.remove("bg-gray-800");
 }
-
 </script>
 
 <template>
